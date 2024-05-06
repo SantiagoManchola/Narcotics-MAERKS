@@ -166,7 +166,7 @@ main .linksNegros a{
   background-image: url("/assets/images/bgAmarrillo2.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 513px;
   width: auto;
 }
@@ -296,15 +296,15 @@ main .linksNegros a{
 }
 .sixContainer .img2{
   position: absolute;
-  max-width: 330px;
+  max-width: 266px;
   height: auto;
-  left: 30%;
+  left: 33%;
   top: 5%;
   z-index: 1;
 }
 .sixContainer .img3{
   position: absolute;
-  max-width: 368px;
+  max-width: 342px;
   height: auto;
   left: 57%;
   top: 5%;
@@ -336,7 +336,7 @@ main .linksNegros a{
 }
 .bgRed .sub{
   max-height: 360px; 
-  max-width: 527px;
+  max-width: 327px;
   width: 100%;
 }
 
@@ -1683,6 +1683,7 @@ footer small {
     background-repeat: no-repeat;
     height: 1120px;
     width: 100%;
+    max-width: 300px;
   }
   .sixContainer{
     position:relative;
