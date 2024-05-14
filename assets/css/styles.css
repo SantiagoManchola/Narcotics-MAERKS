@@ -99,7 +99,6 @@ main p {
 main a *, main a {
   color: #F4A23E;
   font-family: AcuminCItalic;
-  font-weight: 600;
 }
 main .p2 {
   font-weight: 400;
@@ -599,7 +598,8 @@ h2 .lastSpan {
 .maps figcaption img {
   width: 21px;
   height: 16px;
-  margin-top:4px;
+  margin-top: 1px;
+  margin-right: 12px;
 }
 .loop figcaption p,
 .video figcaption p,
@@ -617,8 +617,8 @@ h2 .lastSpan {
 .bannerIframe figcaption p,
 .trepador figcaption p,
 .maps figcaption p {
-  font-size: 24px;
-  line-height: 23px;
+  font-size: 19px;
+  line-height: 20px;
   font-weight: 500;
   font-family: Acumin ExtraCondensed;
   padding: 0;
@@ -672,15 +672,12 @@ h2 .lastSpan {
   justify-content: center;
   text-align: center;
   gap: 93px;
-  margin: 80px 0;
+  margin-bottom: 80px;
 }
 .credits h4 {
   font-size: 21px;
   text-transform: uppercase;
   font-family: AcuminCItalic;
-}
-.credits img {
-  width: 100%;
 }
 
 footer {
@@ -701,10 +698,11 @@ footer figure {
 }
 footer small {
   color: #000000;
-  font-size: 16px;
   text-align: center;
   font-family: AcuminCItalic;
   font-weight: 950;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .carrousel {
@@ -796,6 +794,8 @@ footer small {
 }
 .bannerVerde{
   width: 100%;
+  max-width: 1485px;
+  align-self: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -869,7 +869,7 @@ footer small {
   justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 170px 0 170px 0;
+  padding: 70px 0;
 }
 .bannerAmarillo .containerAmarillo, .bannerAmarilloSimple .containerAmarillo{
   max-width: 848px;
@@ -901,7 +901,7 @@ footer small {
 }
 .bannerAmarillo .containerAmarillo .containerLeftAmarillo h2, .bannerAmarillo .containerAmarillo .containerRightAmarillo h2{
   text-align: left;
-  max-width: 350px;
+  max-width: 231px;
   font-size: 28px;
   line-height: 33px;
   margin: 0;
@@ -1053,7 +1053,21 @@ footer small {
 .iframeMobile{
   display: none;
 }
-
+.credits img {
+  width: 100%;
+  max-width: 283px;
+}
+.credits section {
+  max-width: 573px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 32px;
+}
+.outCamera{
+  display: none;
+}
 @media (min-width: 1049px) {
   header {
     width: 100%;
@@ -1365,6 +1379,9 @@ footer small {
   }
   .story section {
     margin: 0;
+    max-width: 801px;
+    min-width: 801px;
+    padding: 20px 30px;
   }
   .textFinal {
     width: 70%;
@@ -1375,13 +1392,6 @@ footer small {
   }
   .credits h4 {
     font-size: 18px;
-  }
-  .credits section {
-    max-width: 573px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   .credits section h4{
     font-size: 30px;
@@ -1407,6 +1417,17 @@ footer small {
   }
   .inIcon{
     display: none;
+  }
+  .bannerAmarillo .containerAmarillo .containerLeftAmarillo h2, .bannerAmarillo .containerAmarillo .containerRightAmarillo h2{
+    max-width: 500px;
+  }
+  .loop figcaption p, .video figcaption p, .antonio figcaption p, .jose_fabian figcaption p, .policies figcaption p, .map figcaption p, .ship figcaption p, .audiograma figcaption p, .cams figcaption p, .home figcaption p, .buzos figcaption p, .chats figcaption p, .iframeMobile figcaption p, .bannerIframe figcaption p, .trepador figcaption p, .maps figcaption p{
+    font-size: 24px;
+    line-height: 25px;
+  }
+  footer small{
+    font-size: 22px;
+    line-height: 24px;
   }
 }
 @media (max-width: 1048px) {
@@ -1457,7 +1478,7 @@ footer small {
     margin: 30px 0; 
   }
   .story .p3 img{
-    height: 43px !important;
+    height: 33px !important;
     margin-bottom: 10px;
   }
   .story .p3{
@@ -1468,9 +1489,7 @@ footer small {
     visibility: hidden;
   }
   .bannerAmarillo{
-    background-image: url(/assets/images/bgAmarilloMovil.png);
     background-position: center;
-    margin: 70px 0 70px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1530,7 +1549,7 @@ footer small {
     text-align: left;
   }
   .englishVersion{
-    padding: 0 4em 0 4em;
+    padding: 0 2em;
     margin: 31px 0 27px 0;
   }
   .englishVersion .textContainer{
@@ -1549,7 +1568,6 @@ footer small {
     width: 32px;
     margin-top: 10px;
   }
-
 }
 @media(max-width: 700px){
   .credits{
@@ -1597,6 +1615,22 @@ footer small {
   }
   .chats figcaption p, .bannerIframe figcaption p, .iframeMobile figcaption p{
     text-align: left;
+  }
+  .credits .section{
+    align-items: center;
+  }
+  .credits section h4{
+    font-size: 18.21px;
+    line-height: 21.2px;
+  }
+  .credits section{
+    align-items: center;
+  }
+  .inCamera{
+    display: none;
+  }
+  .outCamera{
+    display: block;
   }
 }
 
@@ -1681,7 +1715,7 @@ footer small {
     background-image: url("/assets/images/bgYellowLarge.png") ;
     background-position: center;
     background-repeat: no-repeat;
-    height: 1120px;
+    height: 900px;
     width: 100%;
     max-width: 300px;
   }
@@ -1689,7 +1723,7 @@ footer small {
     position:relative;
     justify-items: center;
     align-items: end;
-    height: 1120px;
+    height: 900px;
     width: 100%;
 
   }
@@ -1738,7 +1772,12 @@ footer small {
     transform: translateX(-50%);
   }
 }
-
+@media(min-width:700px){
+  .credits img {
+    max-width: 440px;
+    min-width: 440px;
+  }
+}
 
 
 /*# sourceMappingURL=styles.css.map */
