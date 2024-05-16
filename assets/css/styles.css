@@ -434,12 +434,11 @@ h2 small {
 }
 h2 span {
   font-weight: 600;
-  font-family: Acumin ExtraCondensed;
+  font-family: AcuminPSemibold;
   background-color: #29C6A7;
   font-size: 50px;
   color: #000000;
   text-align: center;
-  font-family: AcuminCItalic;
   padding-inline: 10px;
   line-height: 45px;
 }
@@ -1429,7 +1428,7 @@ footer small {
     display: none;
   }
   .bannerAmarillo .containerAmarillo .containerLeftAmarillo h2, .bannerAmarillo .containerAmarillo .containerRightAmarillo h2{
-    max-width: 300px;
+    max-width: 323px;
   }
   .loop figcaption p, .video figcaption p, .antonio figcaption p, .jose_fabian figcaption p, .policies figcaption p, .map figcaption p, .ship figcaption p, .audiograma figcaption p, .cams figcaption p, .home figcaption p, .buzos figcaption p, .chats figcaption p, .iframeMobile figcaption p, .bannerIframe figcaption p, .trepador figcaption p, .maps figcaption p{
     font-size: 24px;
@@ -1538,6 +1537,7 @@ footer small {
     font-size: 20px;
     line-height: 27px;
     margin: 0px 3.5em 0px 3.5em;
+    max-width: 186px;
   }
   .bannerVerde h3{
     font-size: 25px;
