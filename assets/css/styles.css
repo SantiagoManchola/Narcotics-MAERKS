@@ -429,8 +429,9 @@ h2 small {
   line-height: 45px;
   font-weight: 950;
   font-family: Acumin Wide;
-  padding-inline: 5px;
+  padding-inline: 15px;
   text-decoration: none;
+  position: relative;
 }
 h2 span {
   font-weight: 600;
@@ -439,13 +440,19 @@ h2 span {
   font-size: 50px;
   color: #000000;
   text-align: center;
-  padding-inline: 10px;
+  padding-inline: 15px;
   line-height: 45px;
   padding: 10px;
+  position: relative;
+
 }
-h2 .lastSpan {
+h2 .lastSpan{
   color: #FFFFFF;
   margin-top: -5px;
+}
+h2 del{
+  position: relative;
+  padding-inline: 15px;
 }
 
 .chats{
