@@ -773,7 +773,7 @@ footer small {
 .carrousel__news figure section small {
   text-transform: uppercase;
 }
-.carrousel__news figure section button {
+.carrousel__news figure section a {
   position: absolute;
   background-color: red;
   left: 100px;
@@ -952,7 +952,7 @@ footer small {
   color: black;
 }
 
-.bannerAmarillo .containerAmarillo .containerRightAmarillo button, .credits a{
+.bannerAmarillo .containerAmarillo .containerRightAmarillo a, .credits a{
   color: white;
   background-color: #D92429;
   line-height: 40px;
