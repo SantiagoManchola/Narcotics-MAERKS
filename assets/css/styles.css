@@ -140,8 +140,9 @@ main .linksNegros a{
 .loop, .video {
   margin-top: 72px;
   width: 100%;
+  display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 .video{
   display: flex;
@@ -151,8 +152,8 @@ main .linksNegros a{
   width: 100%;
 }
 .loop img {
-  width: 100%;
-  height: auto;
+  max-height: 65vh;
+  max-width: 100%;
 }
 .pair{
   position: relative;
@@ -1106,8 +1107,8 @@ footer small {
     fill: white;
   }
   main h1 {
-    font-size: 7vw;
-    line-height: 7vw;
+    font-size: 80px;
+    line-height: 77px;
   }
   main .p1,
   main .p2 {
