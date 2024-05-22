@@ -73,9 +73,7 @@ main {
 }
 main h1 {
   color: white;
-  font-size: 52px;
   font-weight: 900;
-  line-height: 38px;
   text-align: center;
   justify-content: center;
   margin: 20px 0;
@@ -161,10 +159,23 @@ main .linksNegros a{
 .sequence{
   width: 100%;
 }
-.loop img {
+.loop img.imgMobile {
   max-width: 100%;
   width: 100%;
   height: auto;
+}
+.loop img.imgDesktop{
+  display: none;
+}
+@media(min-width:900px){
+  .loop img.imgMobile {
+    display: none;
+  }
+  .loop img.imgDesktop{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 }
 .pair{
   position: relative;
@@ -458,17 +469,15 @@ h2 span {
   font-size: 50px;
   color: #000000;
   text-align: center;
-  padding-inline: 15px;
+  padding-inline: 5px;
   line-height: 45px;
-  padding: 10px;
   position: relative;
-
+  padding: 10px;
 }
 h2 .lastSpan{
   color: #FFFFFF;
-  margin-top: -5px;
-  line-height: 22px !important;
-  padding: 0 10px;
+  padding-inline: 5px;
+  position: relative;
 }
 h2 .indented {
   display: inline-block;
