@@ -80,6 +80,11 @@ main h1 {
   justify-content: center;
   margin: 20px 0;
   font-family: Acumin Wide;
+  margin: 0 21px !important;
+  font-size: 42px !important;
+  line-height: 38px !important;
+  margin-bottom: 31px !important;
+
 }
 main h2 {
   color: #F4A23E;
@@ -96,7 +101,12 @@ main h1 strong {
   font-family: Acumin ExtraCondensed;
 }
 main h1 span{
-  color:#29C6A7
+  color:#29C6A7;
+  margin: 0 21px !important;
+  font-size: 42px !important;
+  line-height: 38px !important;
+  margin-bottom: 31px !important;
+
 }
 main p {
   font-family: AcuminC;
@@ -152,8 +162,9 @@ main .linksNegros a{
   width: 100%;
 }
 .loop img {
-  max-height: 65vh;
   max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 .pair{
   position: relative;
@@ -430,14 +441,15 @@ h2.tonyh2{
   align-items: center;
 }
 h2 small {
-  font-size: 50px;
+  font-size: 36px;
   color: #000000;
-  line-height: 45px;
+  line-height: 32px;
   font-weight: 950;
   font-family: Acumin Wide;
   padding-inline: 15px;
   text-decoration: none;
   position: relative;
+  display: inline-block;
 }
 h2 span {
   font-weight: 600;
@@ -455,23 +467,34 @@ h2 span {
 h2 .lastSpan{
   color: #FFFFFF;
   margin-top: -5px;
+  line-height: 22px !important;
+  padding: 0 10px;
 }
 h2 .indented {
   display: inline-block;
-  padding-left: 15px;
+  padding: 0;
+  padding-inline: 15px;
   color: white;
+  font-size: 36px;
+  line-height: 32px;
 }
 h2 .tony{
   display: flex !important;
   flex-direction: column;
   align-self: center;
   max-width: fit-content;
+  padding: 10px 0;
 }
 h2 del{
   position: relative;
   padding-inline: 15px;
+  font-size: 43px;
+  line-height: 39px;
 }
-
+small.coca{
+  display: inline-block;
+  padding-inline: 36px;
+}
 .chats{
   display: flex;
   flex-direction: column;
@@ -1463,6 +1486,8 @@ footer small {
     font-size: 22px;
     line-height: 24px;
   }
+}
+@media(min-width:900px){
   h2.tonyh2{
     flex-direction: row;
     justify-content: center;
@@ -1470,26 +1495,37 @@ footer small {
   h2 .tony{
     flex-direction: row;
   }
-
+  h2 del{
+    position: relative;
+    padding: 0;
+    padding-inline:0px;
+    font-size: 56px;
+    display: flex;
+    align-self: center;
+  }
+  h2 .indented {
+    font-size: 50px;
+    line-height: 45px !important;
+  }
+  h2 small{
+    font-size: 50px;
+    line-height: 45px;
+  }
+  small.coca{
+    padding-inline: 0;
+    padding-right: 20px;
+  }
+  main h1,main h1 span, main h1 strong{
+    font-size: 80px !important;
+    line-height: 77px !important;
+  }
 }
 @media (max-width: 1048px) {
-  h1, h1 span{
-    margin: 0 21px !important;
-    font-size: 12vw !important;
-    line-height: 12vw !important;
-    margin-bottom: 31px !important;
-  }
+  
   .p1,.p2{
     margin: 0 36px !important;
   }
-  h2 small{
-    font-size: 36px !important;
-    line-height: 39px !important;
-  }
-  h2 span{
-    font-size: 43px !important;
-    line-height: 39px !important;
-  }
+  
   .maersk {
     padding: 5px;
   }
