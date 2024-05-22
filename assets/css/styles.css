@@ -109,7 +109,7 @@ main h1 span{
 main p {
   font-family: AcuminC;
   font-weight: 700;
-  font-size: 23px;
+  font-size: 26px;
   text-align: center;
 }
 main a *, main a {
@@ -642,7 +642,7 @@ small.coca{
 .maps figcaption {
   color: #FFFFFF;
   display: flex;
-  gap: 10px;
+  gap: 5px;
   padding: 1em;
 }
 .loop figcaption img,
@@ -664,7 +664,6 @@ small.coca{
   width: 21px;
   height: 16px;
   margin-top: 1px;
-  margin-right: 12px;
 }
 .loop figcaption p,
 .video figcaption p,
