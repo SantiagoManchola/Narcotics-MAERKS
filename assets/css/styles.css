@@ -1484,7 +1484,7 @@ footer small {
     display: none;
   }
   .bannerAmarillo .containerAmarillo .containerLeftAmarillo h2, .bannerAmarillo .containerAmarillo .containerRightAmarillo h2{
-    max-width: 323px;
+    max-width: 375px;
   }
   .loop figcaption p, .video figcaption p, .antonio figcaption p, .jose_fabian figcaption p, .policies figcaption p, .map figcaption p, .ship figcaption p, .audiograma figcaption p, .cams figcaption p, .home figcaption p, .buzos figcaption p, .chats figcaption p, .iframeMobile figcaption p, .bannerIframe figcaption p, .trepador figcaption p, .maps figcaption p{
     font-size: 24px;
