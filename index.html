@@ -204,7 +204,7 @@
         </svg>
 
         <section>
-          <a target="_blank" rel="noopener noreferrer" href="" onclick="shareOnTikTok()"><img height="36" width="36" src="assets/icons/Icon_TikTok.png" alt="tiktok" /></a>
+          <a target="_blank" id="generarTweet" rel="noopener noreferrer"><img height="36" width="36" src="assets/icons/Icon_TikTok.png" alt="tiktok" /></a>
           <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/cuestion_p?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" onclick="shareOnTwitter()" ><img height="36.77" width="36.77" src="assets/icons/Icon_Equis.png" alt="x" /></a>
           <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cuestionp/" onclick="shareOnInstagram()"><img height="36" width="36" src="assets/icons/Icon_IG.png" alt="instagram"/></a>
           <a target="_blank" rel="noopener noreferrer" href="https://whatsapp.com/channel/0029VaEtuJyChq6KoF971k0M " onclick="shareOnWhatsapp()"><img height="36" width="36" src="assets/icons/Icon_W.png" alt="wpp" /></a>
@@ -555,29 +555,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="assets/js/main.js" type="text/javascript"></script>
     <script>
-      function shareOnTikTok() {
-          const url = encodeURIComponent(window.location.href);
-          const title = encodeURIComponent(document.querySelector('meta[property="og:title"]').content);
-          const description = encodeURIComponent(document.querySelector('meta[property="og:description"]').content);
-          const image = encodeURIComponent(document.querySelector('meta[property="og:image"]').content);
-          window.open(`https://www.tiktok.com/@cuestionp?lang=es/sharer/sharer.php?u=${url}&t=${title}`, 'popup', 'width=600,height=600');
-          return false;
-      }
+      document.getElementById('generarTweet').addEventListener('click', function() {
+    var juego = "Nombre del juego"; // Aquí debes reemplazar con el nombre del juego
+    var link = "https://narcotics-maerks.vercel.app/"; // Aquí debes reemplazar con el enlace del juego
 
-      function shareOnTwitter() {
-          const url = encodeURIComponent(window.location.href);
-          const title = encodeURIComponent(document.querySelector('meta[property="og:title"]').content);
-          window.open(`https://twitter.com/intent/tweet?url=${url}&text=${title}`, 'popup', 'width=600,height=400');
-          return false;
-      }
+    var tweet = "Acabo de jugar a " + juego + " con el link " + link + ". ¡Prueba tu suerte también!";
 
-      function shareOnLinkedIn() {
-          const url = encodeURIComponent(window.location.href);
-          const title = encodeURIComponent(document.querySelector('meta[property="og:title"]').content);
-          const summary = encodeURIComponent(document.querySelector('meta[property="og:description"]').content);
-          window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=${title}&summary=${summary}`, 'popup', 'width=600,height=600');
-          return false;
-      }
+    // Abre la ventana para publicar el tweet
+    var url = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(tweet);
+    window.open(url, '_blank');
+});
   </script>
   </body>
 </html>
