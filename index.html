@@ -556,10 +556,10 @@
     <script src="assets/js/main.js" type="text/javascript"></script>
     <script>
       document.getElementById('generarTweet').addEventListener('click', function() {
-      var message = "Desde la base de antinarcóticos en Buenaventura se coordinaron envíos de cocaína hacia Europa en una de las navieras favoritas de la mafia colombiana: CMA-CGM. :point_down:";
+      var message = "Desde la base de antinarcóticos en Buenaventura se coordinaron envíos de cocaína hacia Europa en una de las navieras favoritas de la mafia colombiana: CMA-CGM. 👇";
       var link = "https://narcotics-maerks.vercel.app/";
 
-      var tweet = message + link ;
+      var tweet = message + "%0A" + link ;
 
       var url = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(tweet);
       window.open(url, '_blank');
