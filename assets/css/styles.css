@@ -1641,7 +1641,7 @@ footer small {
   }
   .englishVersion{
     padding: 0 2em;
-    margin: 31px 0 27px 0;
+    margin: 0;
   }
   .englishVersion .textContainer{
     border: none;
