@@ -556,15 +556,14 @@
     <script src="assets/js/main.js" type="text/javascript"></script>
     <script>
       document.getElementById('generarTweet').addEventListener('click', function() {
-    var juego = "Nombre del juego"; // Aquí debes reemplazar con el nombre del juego
-    var link = "https://narcotics-maerks.vercel.app/"; // Aquí debes reemplazar con el enlace del juego
+      var message = "Desde la base de antinarcóticos en Buenaventura se coordinaron envíos de cocaína hacia Europa en una de las navieras favoritas de la mafia colombiana: CMA-CGM. :point_down:";
+      var link = "https://narcotics-maerks.vercel.app/";
 
-    var tweet = "Acabo de jugar a " + juego + " con el link " + link + ". ¡Prueba tu suerte también!";
+      var tweet = message + link ;
 
-    // Abre la ventana para publicar el tweet
-    var url = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(tweet);
-    window.open(url, '_blank');
-});
+      var url = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(tweet);
+      window.open(url, '_blank');
+      });
   </script>
   </body>
 </html>
