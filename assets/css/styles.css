@@ -1,35 +1,35 @@
 
 @font-face {
   font-family: Acumin Wide;
-  src: url(/assets/fonts/acumin-pro/Acumin-Pro/AcuminProWide/Acumin%20Pro%20Wide%20UltraBlack.otf);
+  src: url(../fonts/acumin-pro/Acumin-Pro/AcuminProWide/Acumin%20Pro%20Wide%20UltraBlack.otf);
 }
 @font-face {
   font-family: Acumin ExtraCondensed;
-  src: url(/assets/fonts/acumin-pro/Acumin-Pro/AcuminProExtraCondensed/Acumin%20Pro%20ExtraCond%20Light.otf);
+  src: url(../fonts/acumin-pro/Acumin-Pro/AcuminProExtraCondensed/Acumin%20Pro%20ExtraCond%20Light.otf);
 }
 @font-face {
   font-family: AcuminC;
-  src: url(/assets/fonts/acumin-pro/Acumin-Pro/AcuminProCondensed/Acumin%20Pro%20Cond%20Bold%20Italic.otf);
+  src: url(../fonts/acumin-pro/Acumin-Pro/AcuminProCondensed/Acumin%20Pro%20Cond%20Bold%20Italic.otf);
 }
 @font-face {
   font-family: AcuminPBlack;
-  src: url(/assets/fonts/acumin-pro/Acumin-Pro/AcuminProCondensed/Acumin%20Pro%20Cond%20Black.otf);
+  src: url(../fonts/acumin-pro/Acumin-Pro/AcuminProCondensed/Acumin%20Pro%20Cond%20Black.otf);
 }
 @font-face {
   font-family: AcuminCItalic;
-  src: url(/assets/fonts/acumin-pro/Acumin-Pro/AcuminProCondensed/Acumin\ Pro\ Cond\ Light.otf);
+  src: url(../fonts/acumin-pro/Acumin-Pro/AcuminProCondensed/Acumin\ Pro\ Cond\ Light.otf);
 }
 @font-face {
   font-family: AcuminPSemiBold;
-  src: url(/assets/fonts/acumin-pro/Acumin-Pro/AcuminProCondensed/Acumin\ Pro\ Cond\ Semibold.otf);
+  src: url(../fonts/acumin-pro/Acumin-Pro/AcuminProCondensed/Acumin\ Pro\ Cond\ Semibold.otf);
 }
 @font-face {
   font-family: AcuminPECBold;
-  src: url(/assets/fonts/acumin-pro/Acumin-Pro/AcuminProExtraCondensed/Acumin\ Pro\ ExtraCond\ Bold.otf);
+  src: url(../fonts/acumin-pro/Acumin-Pro/AcuminProExtraCondensed/Acumin\ Pro\ ExtraCond\ Bold.otf);
 }
 @font-face {
   font-family: AcuminPECBlackItalic;
-  src: url(/assets/fonts/acumin-pro/Acumin-Pro/AcuminProExtraCondensed/Acumin\ Pro\ ExtraCond\ Black\ Italic.otf);
+  src: url(../fonts/acumin-pro/Acumin-Pro/AcuminProExtraCondensed/Acumin\ Pro\ ExtraCond\ Black\ Italic.otf);
 }
 
 * {
@@ -69,7 +69,6 @@ main {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-image: url("../images/bg.jpeg");
   background-size: 100%;
 }
 main h1 {
@@ -184,7 +183,7 @@ main .linksNegros a{
   align-items: end;
   justify-content: center;
   width: 100%;
-  background-image: url("/assets/images/FondoAmarillo2.png");
+  background-image: url("../images/FondoAmarillo2.png");
   background-position: center;
   background-repeat: no-repeat;
   max-width: 931px;
@@ -195,7 +194,7 @@ main .linksNegros a{
   align-items: end;
   justify-content: center;
   width: 100%;
-  background-image: url("/assets/images/bgAmarrillo2.png");
+  background-image: url("../images/bgAmarrillo2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -224,7 +223,7 @@ main .linksNegros a{
   min-height: 308px;
 }
 .chats .conversation .bgRedLong{
-  background-image: url("/assets/images/bgLongRedConversation.png");
+  background-image: url("../images/bgLongRedConversation.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -258,12 +257,12 @@ main .linksNegros a{
   gap: 23px;
 }
 .messageLeft{
-  background-image: url("/assets/images/leftMessage.png");
+  background-image: url("../images/leftMessage.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .messageRight{
-  background-image: url("/assets/images/rightMessage.png");
+  background-image: url("../images/rightMessage.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -280,7 +279,7 @@ main .linksNegros a{
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-image: url("/assets/images/bgAmarillo.png") ;
+  background-image: url("../images/bgAmarillo.png") ;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -380,7 +379,7 @@ main .linksNegros a{
   align-items: center;
 }
 .maersk figure {
-  background-image: url("/assets/images/fondoverde.png");
+  background-image: url("../images/fondoverde.png");
   padding: 20px;
   background-size: cover;
 }
@@ -388,7 +387,7 @@ main .linksNegros a{
   object-fit: cover;
 }
 .maersk figure p {
-  background-image: url("/assets/images/fondoverde.png");
+  background-image: url("../images/fondoverde.png");
   background-repeat: no-repeat;
   text-align: start;
   margin-top: -100px;
@@ -421,7 +420,7 @@ main .linksNegros a{
 }
 
 .evidence {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgb(0, 0, 0)), url("/assets/images/maersk.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgb(0, 0, 0)), url("../images/maersk.png");
 }
 .evidence img {
   width: 100%;
@@ -578,7 +577,7 @@ small.coca{
 .chats .wbg,
 .trepador .wbg,
 .maps .wbg {
-  background-image: url("/assets/images/fondoverde.png");
+  background-image: url("../images/fondoverde.png");
   padding: -20px;
 }
 .loop section,
@@ -865,7 +864,7 @@ footer small {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: url("/assets/images/bgVerde.png") center no-repeat;
+  background: url("../images/bgVerde.png") center no-repeat;
   background-size: cover;
 }
 .bannerVerde h3{
@@ -890,7 +889,7 @@ footer small {
   color: black;
 }
 .bannerWhite{
-  background: url("/assets/images/bgWhite.png") center;
+  background: url("../images/bgWhite.png") center;
   background-size: cover;
   height: 640px;
   width: 100%;
@@ -927,7 +926,7 @@ footer small {
 }
 
 .bannerAmarillo{
-  background-image: url("/assets/images/fondoAmarillo.png");
+  background-image: url("../images/fondoAmarillo.png");
   width: 100%;
   display: flex;
   align-items: center;
@@ -1072,12 +1071,13 @@ footer small {
   font-weight: normal;
   margin-right: 15px;
 }
-.englishVersion .textContainer p span{
+.englishVersion .textContainer p a{
   background-color: #F4A23E;
   color: black;
+  text-decoration: none;
 }
 .preFooter{
-  background: url("/assets/images/fondoamarilloPc.png") center no-repeat;
+  background: url("../images/fondoamarilloPc.png") center no-repeat;
   display: flex;
   flex-direction:column;
   justify-content: space-between;
@@ -1182,7 +1182,7 @@ footer small {
     padding: 0;
   }
   .maersk figure img {
-    background-image: url("/assets/images/fondoverde.png");
+    background-image: url("../images/fondoverde.png");
   }
   .maersk figure p {
     background-image: none;
@@ -1259,7 +1259,7 @@ footer small {
   .trepador__imgs,
   .maps__imgs {
     display: flex;
-    background-image: url("/assets/images/fondoverde.png");
+    background-image: url("../images/fondoverde.png");
   }
   .loop__imgs img:last-child,
   .antonio__imgs img:last-child,
@@ -1671,7 +1671,7 @@ footer small {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("/assets/images/bgAmarilloMobil.png") ;
+    background-image: url("../images/bgAmarilloMobil.png") ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain ;
@@ -1770,10 +1770,10 @@ footer small {
     order: -1;
   }
   .messageLeft{
-    background-image: url("/assets/images/rightMessage.png");
+    background-image: url("../images/rightMessage.png");
   }
   .messageRight{
-    background-image: url("/assets/images/bgMessageLarge.png");
+    background-image: url("../images/bgMessageLarge.png");
   }
   .imgPe{
     max-height: 200px !important;
@@ -1803,7 +1803,7 @@ footer small {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("/assets/images/bgYellowLarge.png") ;
+    background-image: url("../images/bgYellowLarge.png") ;
     background-position: center;
     background-repeat: no-repeat;
     height: 900px;
